@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FreeDomain | Register a free domain</title>
+  <link rel="stylesheet" href="/web/styles.css">
+</head>
+<body>
+  <header class="nav"><a class="brand" href="/">Free<span>Domain</span></a><a href="/LEARN.md">Learn DNS</a></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">OPEN WEB INFRASTRUCTURE</p>
+      <h1>Put your project<br><em>on the map.</em></h1>
+      <p class="lede">Claim a free domain, connect your nameservers, and build something that belongs to you.</p>
+      <a class="button secondary" href="#register">Start registration <span>↓</span></a>
+    </section>
+    <section class="panel" id="register">
+      <div><p class="eyebrow">REGISTRATION</p><h2>Choose your address</h2><p class="muted">Use an address you control and two nameservers from your DNS provider.</p></div>
+      <form id="registration-form">
+        <label>Domain name <div class="domain-input"><input id="domain" required placeholder="yourproject"><select id="extension"></select></div></label>
+        <label>Email address <input id="email" type="email" required placeholder="you@example.com"></label>
+        <label>Nameservers <small>One per line</small><textarea id="nameservers" required rows="3" placeholder="ns1.example.com&#10;ns2.example.com"></textarea></label>
+        <button class="button" type="submit">Request free domain <span>→</span></button>
+        <p id="message" role="status"></p>
+      </form>
+    </section>
+    <section class="steps"><article><b>01</b><h3>Register</h3><p>Pick a name and submit your DNS provider's nameservers.</p></article><article><b>02</b><h3>Delegate</h3><p>The registrar points your domain at those authoritative servers.</p></article><article><b>03</b><h3>Build</h3><p>Manage records, HTTPS, and deployment with your DNS provider.</p></article></section>
+  </main>
+  <footer><span>FreeDomain reference application</span><a href="https://dash.domain.digitalplat.org/">DigitalPlat dashboard ↗</a></footer>
+  <script src="/web/app.js"></script>
+</body>
+</html>

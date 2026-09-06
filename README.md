@@ -6,6 +6,12 @@
 
 Free domain registration and practical DNS learning resources for everyone.
 
+This repository also contains a runnable FreeDomain reference portal. It
+provides a provider-safe demo registration flow, a browser dashboard, SQLite
+persistence, Docker deployment, and PowerShell operations scripts. See
+[docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md) to run it locally or connect a
+verified registrar API.
+
 Register a domain, connect your preferred DNS provider through custom nameservers, and use the included learning guide to take a project from registration to deployment.
 
 [Register a domain](https://dash.domain.digitalplat.org/) · [Read the tutorial](./documents/tutorial/index.md) · [Browse the learning guide](./LEARN.md) · [View the application source](https://github.com/DigitalPlatDev/Domain-OSS)
